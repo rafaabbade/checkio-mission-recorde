@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def recorde(resultados):
+    # Seu código aqui
+    return None
+print("Example:")
+print(recorde([97,95,98])
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert recorde([97, 95, 98]) == ['*', 'RO']
+assert recorde([10, 10, 10]) == ['*', '*']
+assert recorde([78, 80, 81]) == ['RM', 'RO']
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

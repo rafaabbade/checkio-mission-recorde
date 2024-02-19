@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Atletas vêm quebrando recordes continuamente. O recorde mundial de uma modalidade esportiva é o melhor resultado já alcançado por um atleta nessa modalidade, em competições oficiais, que incluem campeonatos mundiais e Olimpíadas. Frequentemente, o melhor resultado obtido nas Olimpíadas pode não superar o recorde mundial. Por isso, são reconhecidos dois tipos de recordes nas Olimpíadas: o recorde olímpico e o recorde mundial. Sua tarefa é determinar se um resultado obtido nas Olimpíadas é um novo recorde mundial e/ou olímpico, dados os recordes mundial e olímpico existentes para a modalidade.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Três inteiros em uma lista: R, o melhor resultado obtido nas Olimpíadas; M, o recorde mundial; e L, o recorde olímpico. Quanto menor o valor, melhor o resultado.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista de duas strings: a primeira indica se o resultado é um novo recorde mundial ("RM" ou "*"), e a segunda indica se é um novo recorde olímpico ("RO" ou "de *"). O asterisco indica que o novo resultado não configura recorde.
 </p>
 
 
@@ -28,7 +28,10 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    recorde([97, 95, 98]) >> ['*', 'RO']
+recorde([10, 10, 10]) >> ['*', '*']
+recorde([78, 80, 81]) >> ['RM', 'RO']
+
 </pre>
 {% endif %}
 </div>
