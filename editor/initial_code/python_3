@@ -2,7 +2,7 @@ def recorde(resultados):
     # Seu código aqui
     return None
 print("Example:")
-print(recorde([97,95,98])
+print(recorde([97,95,98]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 assert recorde([97, 95, 98]) == ['*', 'RO']
